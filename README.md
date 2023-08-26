@@ -16,8 +16,8 @@ This is a simple web application that allows users to search for books using the
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/book-search-app.git
-    cd book-search-app
+    git clone https://github.com/MohamedFahman/vpt-2023-aug-Syntax-Savants
+    cd vpt-2023-aug-Syntax-Savants
     ```
 
 2. **Open the `index.html` file:**
@@ -39,7 +39,7 @@ This is a simple web application that allows users to search for books using the
 3. **View Book Details:**
 
     - Click on a book title in the search results to view detailed information about the selected book.
-    - The book details page (`book_details.html`) will display the title, author(s), and first published year of the book.
+    - The book details page will display the title, author(s), and first published year of the book.
 
 4. **Back to Search:**
 
