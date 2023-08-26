@@ -24,16 +24,18 @@ function displayResults(books) {
   const endIndex = startIndex + resultsPerPage;
   const displayedBooks = books.slice(startIndex, endIndex);
 
-  displayedBooks.forEach((book) => {
+  displayedBooks.forEach((book, index) => {
     const bookDiv = document.createElement("div");
     bookDiv.className = "book";
     bookDiv.innerHTML = `
-        <h5>${book.title}</h5>
-        <p>Author(s): ${
-          book.author_name ? book.author_name.join(", ") : "N/A"
-        }</p>
-        <p>First Published: ${book.first_publish_year || "N/A"}</p>
-      `;
+      <h5><a href="book_details.html?isbn=${encodeURIComponent(
+        book.isbn[0]
+      )}">${book.title}</a></h5>
+      <p>Author(s): ${
+        book.author_name ? book.author_name.join(", ") : "N/A"
+      }</p>
+      <p>First Published: ${book.first_publish_year || "N/A"}</p>
+    `;
 
     resultsDiv.appendChild(bookDiv);
   });
