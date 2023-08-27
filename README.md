@@ -16,7 +16,7 @@ This is a simple web application that allows users to search for books using the
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/MohamedFahman/vpt-2023-aug-Syntax-Savants
+    git clone https://github.com/MusthakSM/vpt-2023-aug-Syntax-Savants
     cd vpt-2023-aug-Syntax-Savants
     ```
 
