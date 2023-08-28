@@ -49,5 +49,5 @@ This is a simple web application that allows users to search for books using the
 
 - [Bootstrap](https://getbootstrap.com): CSS framework for styling the web pages.
 - [Open Library API](https://openlibrary.org/developers/api): Provides access to book data for searching and displaying details.
-
+- [Flask](https://flask.palletsprojects.com/en/2.3.x/): Popular and lightweight web framework for building web applications in python
 
